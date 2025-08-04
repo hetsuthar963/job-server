@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "server.js",
+    "models/",
+    "summarizer.js",
+    "summarizer.ts",
+    "summarizer-openai.js"
+  ],
+  "ext": "js,ts,json",
+  "ignore": [
+    "node_modules/",
+    "*.log",
+    ".git/"
+  ],
+  "delay": 1000,
+  "verbose": true,
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
